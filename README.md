@@ -1,2 +1,1 @@
-# 3j-2Projeto
-Repositório para guardar os códigos do segundo projeto 
+julia rocha frois n 18
