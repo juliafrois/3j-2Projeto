@@ -30,7 +30,26 @@ async function quantidadeusuarios(){
                 family: getCSS('--fonte'),
                 size: 30
             }
+        },
+        xaxis: {
+            tickfont: tickfont,
+            title:{
+                text: 'Nome das Redes Sociais',
+                font: {
+                    color: getCSS('--cor-secundaria')
+                }
+            }
+        },
+        yaxis:{
+            tickfont: tickfont,
+            title:{
+                text: 'Milhoes de Usuarioos Ativos',
+                font: {
+                    color: getCSS('--cor-secundaria')
+                }
+            }
         }
+        
     }
 
     const grafico = document.createElement('div');
